@@ -30,7 +30,6 @@ conn.put_object(container = container_name, obj = object_name2, contents = 'Hell
 print 'done!'
 print '-----------------\n'
 
-                                                                                                                   1,1           Top
 
 # list owned containers 
 print 'listing all containers:'
