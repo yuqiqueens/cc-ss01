@@ -18,7 +18,10 @@ sudo pip install python-swiftclient
 print_log "Downloading ss01.py"
 
 # Get the python code for the service
-wget -N https://raw.githubusercontent.com/yuqiqueens/cc-ss01/master/ss01.py
+# wget -N https://raw.githubusercontent.com/yuqiqueens/cc-ss01/master/ss01.py
+
+curl https://raw.githubusercontent.com/yuqiqueens/cc-ss01/master/ss01.py --output ss01.py
+
 
 case $cmd in
     update)
