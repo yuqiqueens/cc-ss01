@@ -19,9 +19,9 @@ print_log "INSTALL python tools and pip"
 print_log "INSTALL Swift CLI Package"
 #pip install python-swiftclient
 
-sudo yum install -y python-pip
-sudo pip install pip --upgrade
-sudo pip install python-swiftclient
+yum install -y python-pip
+pip install pip --upgrade
+pip install python-swiftclient
 
 
 
