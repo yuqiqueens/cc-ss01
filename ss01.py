@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # create a connction 
 import swiftclient
 user = 'Bill'
