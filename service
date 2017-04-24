@@ -10,18 +10,18 @@ serviceStatus=""
 
 
 print_log "INSTALL python tools and pip"
-yum update -y
-yum install -y python-setuptools
-easy_install pip
-pip install --upgrade pip
-pip install --upgrade setuptools
+# yum update -y
+#yum install -y python-setuptools
+#easy_install pip
+#pip install --upgrade pip
+#pip install --upgrade setuptools
 
 print_log "INSTALL Swift CLI Package"
-pip install python-swiftclient
+#pip install python-swiftclient
 
-#sudo yum install -y python-pip
-#sudo pip install pip --upgrade
-#sudo pip install python-swiftclient
+sudo yum install -y python-pip
+sudo pip install pip --upgrade
+sudo pip install python-swiftclient
 
 
 
@@ -40,7 +40,7 @@ case $cmd in
 	        print_log "Executing ss01.py"
 	        python ss01.py start
 	        print_log "Start Complete"
-	        sleep 6000
+#	        sleep 6000
 	        ;;
         stop)
 	        ;;
